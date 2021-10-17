@@ -19,7 +19,7 @@ struct ContentView: View {
             }
             
             NavigationView {
-                RegulatoryListView(viewModel: .init(dataModel: .init(appVersion: "2.2.0 (2834)", shouldShowEURegulatory: true, shouldShowUDIInRegulatory: true, shouldHideRegulatory: false)))
+                RegulatoryListView(appVersion: "2.2.0 (2834)")
             }
             .tabItem {
                 Image(systemName: "2.square.fill")
