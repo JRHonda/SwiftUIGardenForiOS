@@ -12,6 +12,7 @@
 		0CC30F27271BAE890025755E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC30F26271BAE890025755E /* Assets.xcassets */; };
 		0CC30F2A271BAE890025755E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC30F29271BAE890025755E /* Preview Assets.xcassets */; };
 		0CC30F39271BCCEB0025755E /* RegulatoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC30F38271BCCEB0025755E /* RegulatoryListView.swift */; };
+		0CC30F3D271BD5560025755E /* RegulatoryListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC30F3C271BD5560025755E /* RegulatoryListViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0CC30F26271BAE890025755E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC30F29271BAE890025755E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CC30F38271BCCEB0025755E /* RegulatoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatoryListView.swift; sourceTree = "<group>"; };
+		0CC30F3C271BD5560025755E /* RegulatoryListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatoryListViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,8 @@
 		0CC30F21271BAE880025755E /* SwiftUIGardenForiOS */ = {
 			isa = PBXGroup;
 			children = (
+				0CC30F3B271BD5040025755E /* View Models */,
+				0CC30F3A271BD4FB0025755E /* Models */,
 				0CC30F32271BB56E0025755E /* ViewLibrary */,
 				0CC30F22271BAE880025755E /* SwiftUIGardenForiOSApp.swift */,
 				0CC30F24271BAE880025755E /* ContentView.swift */,
@@ -84,6 +88,21 @@
 				0CC30F38271BCCEB0025755E /* RegulatoryListView.swift */,
 			);
 			path = Lists;
+			sourceTree = "<group>";
+		};
+		0CC30F3A271BD4FB0025755E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CC30F3B271BD5040025755E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CC30F3C271BD5560025755E /* RegulatoryListViewViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,7 @@
 				0CC30F25271BAE880025755E /* ContentView.swift in Sources */,
 				0CC30F39271BCCEB0025755E /* RegulatoryListView.swift in Sources */,
 				0CC30F23271BAE880025755E /* SwiftUIGardenForiOSApp.swift in Sources */,
+				0CC30F3D271BD5560025755E /* RegulatoryListViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
